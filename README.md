@@ -1,4 +1,5 @@
-php_jobs_from_reddit
-====================
+List PHP jobs from reddit
+=========================
 
-Find any new PHP jobs from a few subreddits on Reddit.com
+* Find any new PHP jobs from a few subreddits on Reddit.com
+* Built using Silex and Twig
