@@ -1,4 +1,12 @@
 {
+    "name": "PHP jobs on Reddit",
+    "description": "Find any new PHP jobs from a few subreddits on Reddit.com",
+    "authors": [
+        {
+            "name": "Gordon Murray",
+            "email": "projects@murrion.com"
+        }
+    ],
     "require": {
         "silex/silex": "~1.1",
         "twig/twig": "1.6.5"
