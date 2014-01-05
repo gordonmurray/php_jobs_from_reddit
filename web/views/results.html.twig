@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Reddit Results</title>
+</head>
+<body>
+<h3>Results from searching Reddit</h3>
+{% if posts %}
+    <ol>
+        {% for item in posts %}
+
+            <li>{{ item | raw }}</li>
+
+        {% endfor %}
+    </ol>
+{% else %}
+    <p>Sorry, no results to show</p>
+{% endif %}
+</body>
+</html>
